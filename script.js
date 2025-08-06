@@ -1,15 +1,14 @@
-/*
-* File : To Do Task Manager Application
-* Project : To Do Task Manager
-* Programmer : Maruf Rasool
-* First Version : 2025-08-04
-* Description :
-* The applicaiton is created to help user for daily task managment
-*/
+// File: To Do Task Manager Application
+// Project: To Do Task Manager
+// Programmer: Maruf Rasool
+// First Version: 2025-08-04
+// Description :
+// The application is created to help users with daily task management
+
 
 // User Authentication
 const users = [
-    { email: 'mras6187@gmail.com', password: 'Secret55', name: 'Maruf Rasool' }
+    { email: 'mrasool6187@conestogac.on.ca', password: 'Secret55', name: 'Maruf Rasool' }
 ];
 
 let currentUser = null;
@@ -360,3 +359,4 @@ if (logoutBtn) {
     loadTasks();
     renderTasks();
 }
+
